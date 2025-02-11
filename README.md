@@ -13,3 +13,6 @@ Cons: Time consuming, No hardware design
 ---------------------------
 for how to wire the led strips  
 https://www.instructables.com/DIY-Super-Smart-Chessboard-Play-Online-or-Against-/
+  
+
+https://www.nutsvolts.com/magazine/article/January2017_Electronic-Chessboard-LEDs-Hall-Effect-Sensors
