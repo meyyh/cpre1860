@@ -7,4 +7,3 @@ Hall Effect Sensors
 https://www.nutsvolts.com/magazine/article/January2017_Electronic-Chessboard-LEDs-Hall-Effect-Sensors
 
 to run the code do ```javac -cp target/classes Main.java``` then ```java -cp .:target/classes Main```
-hi
