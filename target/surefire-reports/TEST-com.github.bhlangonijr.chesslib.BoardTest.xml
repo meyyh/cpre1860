@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.github.bhlangonijr.chesslib.BoardTest" time="0.065" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/meyyh/gits/chesslib/target/test-classes:/home/meyyh/gits/chesslib/target/classes:/home/meyyh/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/meyyh/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/meyyh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Arch Linux"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.org/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-23-openjdk/lib"/>
+    <property name="sun.java.command" value="/home/meyyh/gits/chesslib/target/surefire/surefirebooter-20250218123047785_3.jar /home/meyyh/gits/chesslib/target/surefire 2025-02-18T12-30-47_745-jvmRun1 surefire-20250218123047785_1tmp surefire_0-20250218123047785_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/meyyh/gits/chesslib/target/test-classes:/home/meyyh/gits/chesslib/target/classes:/home/meyyh/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/home/meyyh/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/home/meyyh/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/meyyh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="/usr/lib/jvm/java-23-openjdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/meyyh/gits/chesslib"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/meyyh/gits/chesslib/target/surefire/surefirebooter-20250218123047785_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2"/>
+    <property name="user.name" value="meyyh"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.13.2-arch1-1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/meyyh/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="/home/meyyh/gits/chesslib"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Arch Linux"/>
+    <property name="java.vm.version" value="23.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testToStringFromBlackViewPoint" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.012"/>
+  <testcase name="testLegalMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testBoardConsistencyAfterUndoingMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testThreefoldRepetition" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testFENFormattingOnlyOutputEnPassantIfCapturable_EnPassantPossible" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testClone" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testDraws" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+  <testcase name="testIncrementalHashKey2" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.002">
+    <system-out><![CDATA[r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQ1RK1 b kq - 5 4
+]]></system-out>
+  </testcase>
+  <testcase name="testNullMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testCastleAndFENParsing" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.007">
+    <system-out><![CDATA[new FEN after: e1g1: rnbqk2r/ppp1b1pp/5p1n/3p4/8/3B1N2/PPPP1PPP/RNBQ1RK1 b kq - 5 1
+hash code is: 841730187
+new FEN after: e8g8: rnbq1rk1/ppp1b1pp/5p1n/3p4/8/3B1N2/PPPP1PPP/RNBQ1RK1 w - - 6 2
+hash code is: 1199523201
+new FEN after: undo: rnbqk2r/ppp1b1pp/5p1n/3p4/8/3B1N2/PPPP1PPP/RNBQ1RK1 b kq - 5 1
+hash code is: 841730187
+]]></system-out>
+  </testcase>
+  <testcase name="testMoveAndFENParsing" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001">
+    <system-out><![CDATA[new FEN after: e7e5: rnbqkbnr/pppp1ppp/8/4p3/4P3/8/PPPP1PPP/RNBQKBNR w KQkq e6 0 2
+hash code is: -361884155
+new FEN after: undo: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR b KQkq e3 0 1
+hash code is: -280065720
+new FEN after: d7d5: rnbqkbnr/ppp1pppp/8/3p4/4P3/8/PPPP1PPP/RNBQKBNR w KQkq d6 0 2
+hash code is: -1844806708
+new FEN after: e4e5: rnbqkbnr/ppp1pppp/8/3pP3/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 2
+hash code is: -251614987
+new FEN after: f7f5: rnbqkbnr/ppp1p1pp/8/3pPp2/8/8/PPPP1PPP/RNBQKBNR w KQkq f6 0 3
+hash code is: 1110417270
+new FEN after: e5f6: rnbqkbnr/ppp1p1pp/5P2/3p4/8/8/PPPP1PPP/RNBQKBNR b KQkq - 0 3
+hash code is: -2003229841
+new FEN after: e7f6: rnbqkbnr/ppp3pp/5p2/3p4/8/8/PPPP1PPP/RNBQKBNR w KQkq - 0 4
+hash code is: 549137569
+]]></system-out>
+  </testcase>
+  <testcase name="testBoardToString" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0">
+    <system-out><![CDATA[r.bqkbnr
+pppppppp
+..n.....
+........
+..B.P...
+........
+PPPP.PPP
+RNBQK.NR
+Side: BLACK
+]]></system-out>
+  </testcase>
+  <testcase name="testToStringFromWhiteViewPoint" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+  <testcase name="testCastleMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testInsufficientMaterial" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testInvalidCastleMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+  <testcase name="testDoSanMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testLegalMove1" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testLegalMove3" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testLegalMove4" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testDoSanMove2" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testIncrementalHashKey" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001">
+    <system-out><![CDATA[3494082646737507219
+7756704916819034564
+]]></system-out>
+  </testcase>
+  <testcase name="testUndoMove" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testFENFormattingOnlyOutputEnPassantIfCapturable_2SquarePawnMoveButEnPassantPossible" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testBoardStrictEquals" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+  <testcase name="testEquality" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.002">
+    <system-out><![CDATA[hash code is: 2141901675
+hash code is: 2141901675
+]]></system-out>
+  </testcase>
+  <testcase name="testInsufficientMaterial1" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testInsufficientMaterial2" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testFENFormattingOnlyOutputEnPassantIfCapturable_EnPassantNotPossible" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+  <testcase name="testThreefoldRepetition1" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testThreefoldRepetition2" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.009">
+    <system-out><![CDATA[2151371626546460885	 = g1f3
+ = rnbqkbnr/pppppppp/8/8/8/5N2/PPPPPPPP/RNBQKB1R b KQkq - 1 1
+1444809208435460661	 = g8f6
+ = rnbqkb1r/pppppppp/5n2/8/8/5N2/PPPPPPPP/RNBQKB1R w KQkq - 2 2
+1460141479071705617	 = c2c4
+ = rnbqkb1r/pppppppp/5n2/8/2P5/5N2/PP1PPPPP/RNBQKB1R b KQkq c3 0 2
+540002481590076708	 = c7c5
+ = rnbqkb1r/pp1ppppp/5n2/2p5/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq c6 0 3
+3078298542808550788	 = b2b3
+ = rnbqkb1r/pp1ppppp/5n2/2p5/2P5/1P3N2/P2PPPPP/RNBQKB1R b KQkq - 0 3
+3740111219830539998	 = d7d6
+ = rnbqkb1r/pp2pppp/3p1n2/2p5/2P5/1P3N2/P2PPPPP/RNBQKB1R w KQkq - 0 4
+-6395112901570578577	 = d2d4
+ = rnbqkb1r/pp2pppp/3p1n2/2p5/2PP4/1P3N2/P3PPPP/RNBQKB1R b KQkq d3 0 4
+1338917373201768279	 = c5d4
+ = rnbqkb1r/pp2pppp/3p1n2/8/2Pp4/1P3N2/P3PPPP/RNBQKB1R w KQkq - 0 5
+951607811048012997	 = f3d4
+ = rnbqkb1r/pp2pppp/3p1n2/8/2PN4/1P6/P3PPPP/RNBQKB1R b KQkq - 0 5
+4016738816921461640	 = e7e5
+ = rnbqkb1r/pp3ppp/3p1n2/4p3/2PN4/1P6/P3PPPP/RNBQKB1R w KQkq e6 0 6
+8369000728852272266	 = d4b5
+ = rnbqkb1r/pp3ppp/3p1n2/1N2p3/2P5/1P6/P3PPPP/RNBQKB1R b KQkq - 1 6
+534184192105272030	 = c8e6
+ = rn1qkb1r/pp3ppp/3pbn2/1N2p3/2P5/1P6/P3PPPP/RNBQKB1R w KQkq - 2 7
+3759099742643025206	 = g2g3
+ = rn1qkb1r/pp3ppp/3pbn2/1N2p3/2P5/1P4P1/P3PP1P/RNBQKB1R b KQkq - 0 7
+3565373134117513172	 = a7a6
+ = rn1qkb1r/1p3ppp/p2pbn2/1N2p3/2P5/1P4P1/P3PP1P/RNBQKB1R w KQkq - 0 8
+5628513321331109649	 = b5c3
+ = rn1qkb1r/1p3ppp/p2pbn2/4p3/2P5/1PN3P1/P3PP1P/RNBQKB1R b KQkq - 1 8
+-3037953077428238711	 = d6d5
+ = rn1qkb1r/1p3ppp/p3bn2/3pp3/2P5/1PN3P1/P3PP1P/RNBQKB1R w KQkq - 0 9
+-5323556572456318558	 = c4d5
+ = rn1qkb1r/1p3ppp/p3bn2/3Pp3/8/1PN3P1/P3PP1P/RNBQKB1R b KQkq - 0 9
+5736349413578185878	 = f6d5
+ = rn1qkb1r/1p3ppp/p3b3/3np3/8/1PN3P1/P3PP1P/RNBQKB1R w KQkq - 0 10
+-416300335409275953	 = f1g2
+ = rn1qkb1r/1p3ppp/p3b3/3np3/8/1PN3P1/P3PPBP/RNBQK2R b KQkq - 1 10
+3920585241221147863	 = f8b4
+ = rn1qk2r/1p3ppp/p3b3/3np3/1b6/1PN3P1/P3PPBP/RNBQK2R w KQkq - 2 11
+-1871930962192893252	 = c1d2
+ = rn1qk2r/1p3ppp/p3b3/3np3/1b6/1PN3P1/P2BPPBP/RN1QK2R b KQkq - 3 11
+276783626348052724	 = b8c6
+ = r2qk2r/1p3ppp/p1n1b3/3np3/1b6/1PN3P1/P2BPPBP/RN1QK2R w KQkq - 4 12
+8752088040041601812	 = e1g1
+ = r2qk2r/1p3ppp/p1n1b3/3np3/1b6/1PN3P1/P2BPPBP/RN1Q1RK1 b kq - 5 12
+3130521826544539166	 = e8g8
+ = r2q1rk1/1p3ppp/p1n1b3/3np3/1b6/1PN3P1/P2BPPBP/RN1Q1RK1 w - - 6 13
+6268438450632675412	 = c3a4
+ = r2q1rk1/1p3ppp/p1n1b3/3np3/Nb6/1P4P1/P2BPPBP/RN1Q1RK1 b - - 7 13
+3886499988873305552	 = a8c8
+ = 2rq1rk1/1p3ppp/p1n1b3/3np3/Nb6/1P4P1/P2BPPBP/RN1Q1RK1 w - - 8 14
+4416040984093121911	 = a2a3
+ = 2rq1rk1/1p3ppp/p1n1b3/3np3/Nb6/PP4P1/3BPPBP/RN1Q1RK1 b - - 0 14
+8086519610933724906	 = b4e7
+ = 2rq1rk1/1p2bppp/p1n1b3/3np3/N7/PP4P1/3BPPBP/RN1Q1RK1 w - - 1 15
+6942017691813444002	 = e2e3
+ = 2rq1rk1/1p2bppp/p1n1b3/3np3/N7/PP2P1P1/3B1PBP/RN1Q1RK1 b - - 0 15
+5511877886134679970	 = b7b5
+ = 2rq1rk1/4bppp/p1n1b3/1p1np3/N7/PP2P1P1/3B1PBP/RN1Q1RK1 w - b6 0 16
+5806669445649149425	 = a4b2
+ = 2rq1rk1/4bppp/p1n1b3/1p1np3/8/PP2P1P1/1N1B1PBP/RN1Q1RK1 b - - 1 16
+-2842280463950178691	 = d8b6
+ = 2r2rk1/4bppp/pqn1b3/1p1np3/8/PP2P1P1/1N1B1PBP/RN1Q1RK1 w - - 2 17
+7330065811767288136	 = b2d3
+ = 2r2rk1/4bppp/pqn1b3/1p1np3/8/PP1NP1P1/3B1PBP/RN1Q1RK1 b - - 3 17
+1005166331808440528	 = f8d8
+ = 2rr2k1/4bppp/pqn1b3/1p1np3/8/PP1NP1P1/3B1PBP/RN1Q1RK1 w - - 4 18
+-6523747474547437923	 = d1e2
+ = 2rr2k1/4bppp/pqn1b3/1p1np3/8/PP1NP1P1/3BQPBP/RN3RK1 b - - 5 18
+2856667383983642112	 = d5f6
+ = 2rr2k1/4bppp/pqn1bn2/1p2p3/8/PP1NP1P1/3BQPBP/RN3RK1 w - - 6 19
+4660223202791915303	 = d3c1
+ = 2rr2k1/4bppp/pqn1bn2/1p2p3/8/PP2P1P1/3BQPBP/RNN2RK1 b - - 7 19
+-8134240597246054996	 = e5e4
+ = 2rr2k1/4bppp/pqn1bn2/1p6/4p3/PP2P1P1/3BQPBP/RNN2RK1 w - - 0 20
+-7732428668101022308	 = d2c3
+ = 2rr2k1/4bppp/pqn1bn2/1p6/4p3/PPB1P1P1/4QPBP/RNN2RK1 b - - 1 20
+1613116590033679617	 = f6d5
+ = 2rr2k1/4bppp/pqn1b3/1p1n4/4p3/PPB1P1P1/4QPBP/RNN2RK1 w - - 2 21
+-728497306698758962	 = g2e4
+ = 2rr2k1/4bppp/pqn1b3/1p1n4/4B3/PPB1P1P1/4QP1P/RNN2RK1 b - - 0 21
+2670445468681426363	 = d5c3
+ = 2rr2k1/4bppp/pqn1b3/1p6/4B3/PPn1P1P1/4QP1P/RNN2RK1 w - - 0 22
+2919380828458586330	 = b1c3
+ = 2rr2k1/4bppp/pqn1b3/1p6/4B3/PPN1P1P1/4QP1P/R1N2RK1 b - - 0 22
+-4297831075801056617	 = c6a5
+ = 2rr2k1/4bppp/pq2b3/np6/4B3/PPN1P1P1/4QP1P/R1N2RK1 w - - 1 23
+-6975279927721078201	 = c1a2
+ = 2rr2k1/4bppp/pq2b3/np6/4B3/PPN1P1P1/N3QP1P/R4RK1 b - - 2 23
+-5651628512996131601	 = a5b3
+ = 2rr2k1/4bppp/pq2b3/1p6/4B3/PnN1P1P1/N3QP1P/R4RK1 w - - 0 24
+1730095226985351168	 = a1d1
+ = 2rr2k1/4bppp/pq2b3/1p6/4B3/PnN1P1P1/N3QP1P/3R1RK1 b - - 1 24
+-4409768867524695916	 = e6c4
+ = 2rr2k1/4bppp/pq6/1p6/2b1B3/PnN1P1P1/N3QP1P/3R1RK1 w - - 2 25
+-7382098617907788710	 = e2f3
+ = 2rr2k1/4bppp/pq6/1p6/2b1B3/PnN1PQP1/N4P1P/3R1RK1 b - - 3 25
+6026371615022628471	 = b6f6
+ = 2rr2k1/4bppp/p4q2/1p6/2b1B3/PnN1PQP1/N4P1P/3R1RK1 w - - 4 26
+4092755812428017025	 = f3g4
+ = 2rr2k1/4bppp/p4q2/1p6/2b1B1Q1/PnN1P1P1/N4P1P/3R1RK1 b - - 5 26
+-2160688373055009515	 = c4e6
+ = 2rr2k1/4bppp/p3bq2/1p6/4B1Q1/PnN1P1P1/N4P1P/3R1RK1 w - - 6 27
+7098909620663018091	 = g4e2
+ = 2rr2k1/4bppp/p3bq2/1p6/4B3/PnN1P1P1/N3QP1P/3R1RK1 b - - 7 27
+6302881892168265148	 = c8c3
+ = 3r2k1/4bppp/p3bq2/1p6/4B3/Pnr1P1P1/N3QP1P/3R1RK1 w - - 0 28
+5075136362660962942	 = a2c3
+ = 3r2k1/4bppp/p3bq2/1p6/4B3/PnN1P1P1/4QP1P/3R1RK1 b - - 0 28
+-6645369062157476746	 = f6c3
+ = 3r2k1/4bppp/p3b3/1p6/4B3/Pnq1P1P1/4QP1P/3R1RK1 w - - 0 29
+7478381370136492571	 = d1d8
+ = 3R2k1/4bppp/p3b3/1p6/4B3/Pnq1P1P1/4QP1P/5RK1 b - - 0 29
+-6792808012596415977	 = e7d8
+ = 3b2k1/5ppp/p3b3/1p6/4B3/Pnq1P1P1/4QP1P/5RK1 w - - 0 30
+-5029418339112038089	 = f1d1
+ = 3b2k1/5ppp/p3b3/1p6/4B3/Pnq1P1P1/4QP1P/3R2K1 b - - 1 30
+3749249205101071119	 = d8e7
+ = 6k1/4bppp/p3b3/1p6/4B3/Pnq1P1P1/4QP1P/3R2K1 w - - 2 31
+-2296826685534500076	 = e4b7
+ = 6k1/1B2bppp/p3b3/1p6/8/Pnq1P1P1/4QP1P/3R2K1 b - - 3 31
+-6870856741574813197	 = b3c5
+ = 6k1/1B2bppp/p3b3/1pn5/8/P1q1P1P1/4QP1P/3R2K1 w - - 4 32
+-295813926539709123	 = e2f3
+ = 6k1/1B2bppp/p3b3/1pn5/8/P1q1PQP1/5P1P/3R2K1 b - - 5 32
+-7368128314504445245	 = g7g6
+ = 6k1/1B2bp1p/p3b1p1/1pn5/8/P1q1PQP1/5P1P/3R2K1 w - - 0 33
+5592357846719996767	 = b7d5
+ = 6k1/4bp1p/p3b1p1/1pnB4/8/P1q1PQP1/5P1P/3R2K1 b - - 1 33
+2221177512435900383	 = e6d5
+ = 6k1/4bp1p/p5p1/1pnb4/8/P1q1PQP1/5P1P/3R2K1 w - - 0 34
+-7536605285318163424	 = f3d5
+ = 6k1/4bp1p/p5p1/1pnQ4/8/P1q1P1P1/5P1P/3R2K1 b - - 0 34
+-3041743981934055372	 = c3a3
+ = 6k1/4bp1p/p5p1/1pnQ4/8/q3P1P1/5P1P/3R2K1 w - - 0 35
+-8870049534836622971	 = d5e5
+ = 6k1/4bp1p/p5p1/1pn1Q3/8/q3P1P1/5P1P/3R2K1 b - - 1 35
+8563155578445040879	 = c5e6
+ = 6k1/4bp1p/p3n1p1/1p2Q3/8/q3P1P1/5P1P/3R2K1 w - - 2 36
+-2358310467644557312	 = d1a1
+ = 6k1/4bp1p/p3n1p1/1p2Q3/8/q3P1P1/5P1P/R5K1 b - - 3 36
+856372623161709311	 = a3d6
+ = 6k1/4bp1p/p2qn1p1/1p2Q3/8/4P1P1/5P1P/R5K1 w - - 4 37
+499901993022411484	 = e5d6
+ = 6k1/4bp1p/p2Qn1p1/1p6/8/4P1P1/5P1P/R5K1 b - - 0 37
+-7466446384472616607	 = e7d6
+ = 6k1/5p1p/p2bn1p1/1p6/8/4P1P1/5P1P/R5K1 w - - 0 38
+7813788642131910453	 = a1a6
+ = 6k1/5p1p/R2bn1p1/1p6/8/4P1P1/5P1P/6K1 b - - 0 38
+548062567547406487	 = d6c5
+ = 6k1/5p1p/R3n1p1/1pb5/8/4P1P1/5P1P/6K1 w - - 1 39
+4271070029531307434	 = g1f1
+ = 6k1/5p1p/R3n1p1/1pb5/8/4P1P1/5P1P/5K2 b - - 2 39
+1830704449941774578	 = g8f8
+ = 5k2/5p1p/R3n1p1/1pb5/8/4P1P1/5P1P/5K2 w - - 3 40
+-7769123138040853889	 = f1e2
+ = 5k2/5p1p/R3n1p1/1pb5/8/4P1P1/4KP1P/8 b - - 4 40
+3003121537766592324	 = f8e7
+ = 8/4kp1p/R3n1p1/1pb5/8/4P1P1/4KP1P/8 w - - 5 41
+74876065116144225	 = e2d3
+ = 8/4kp1p/R3n1p1/1pb5/8/3KP1P1/5P1P/8 b - - 6 41
+1922320226768812097	 = e7d7
+ = 8/3k1p1p/R3n1p1/1pb5/8/3KP1P1/5P1P/8 w - - 7 42
+-4673990452105557436	 = g3g4
+ = 8/3k1p1p/R3n1p1/1pb5/6P1/3KP3/5P1P/8 b - - 0 42
+-4361258606045450069	 = d7c7
+ = 8/2k2p1p/R3n1p1/1pb5/6P1/3KP3/5P1P/8 w - - 1 43
+-5171480277330667722	 = a6a8
+ = R7/2k2p1p/4n1p1/1pb5/6P1/3KP3/5P1P/8 b - - 2 43
+9096085512508223002	 = c7c6
+ = R7/5p1p/2k1n1p1/1pb5/6P1/3KP3/5P1P/8 w - - 3 44
+2323147197240163422	 = f2f4
+ = R7/5p1p/2k1n1p1/1pb5/5PP1/3KP3/7P/8 b - f3 0 44
+-3850309042805480294	 = c5e7
+ = R7/4bp1p/2k1n1p1/1p6/5PP1/3KP3/7P/8 w - - 1 45
+7225196519749324090	 = a8c8
+ = 2R5/4bp1p/2k1n1p1/1p6/5PP1/3KP3/7P/8 b - - 2 45
+-7594230645046063733	 = c6d5
+ = 2R5/4bp1p/4n1p1/1p1k4/5PP1/3KP3/7P/8 w - - 3 46
+-3356510829408998033	 = c8e8
+ = 4R3/4bp1p/4n1p1/1p1k4/5PP1/3KP3/7P/8 b - - 4 46
+7332237715717071195	 = d5d6
+ = 4R3/4bp1p/3kn1p1/1p6/5PP1/3KP3/7P/8 w - - 5 47
+-8676901125256051175	 = g4g5
+ = 4R3/4bp1p/3kn1p1/1p4P1/5P2/3KP3/7P/8 b - - 0 47
+806548625663603098	 = f7f5
+ = 4R3/4b2p/3kn1p1/1p3pP1/5P2/3KP3/7P/8 w - f6 0 48
+-5334763456919258877	 = e8b8
+ = 1R6/4b2p/3kn1p1/1p3pP1/5P2/3KP3/7P/8 b - - 1 48
+4839486916263765440	 = d6c6
+ = 1R6/4b2p/2k1n1p1/1p3pP1/5P2/3KP3/7P/8 w - - 2 49
+5854240538985677756	 = b8e8
+ = 4R3/4b2p/2k1n1p1/1p3pP1/5P2/3KP3/7P/8 b - - 3 49
+-6350036356207206529	 = c6d6
+ = 4R3/4b2p/3kn1p1/1p3pP1/5P2/3KP3/7P/8 w - - 4 50
+-5334763456919258877	 = e8b8
+ = 1R6/4b2p/3kn1p1/1p3pP1/5P2/3KP3/7P/8 b - - 5 50
+4839486916263765440	 = d6c6
+ = 1R6/4b2p/2k1n1p1/1p3pP1/5P2/3KP3/7P/8 w - - 6 51
+5854240538985677756	 = b8e8
+ = 4R3/4b2p/2k1n1p1/1p3pP1/5P2/3KP3/7P/8 b - - 7 51
+-6350036356207206529	 = c6d6
+ = 4R3/4b2p/3kn1p1/1p3pP1/5P2/3KP3/7P/8 w - - 8 52
+]]></system-out>
+  </testcase>
+  <testcase name="testThreefoldRepetition3" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testThreefoldRepetition4" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0">
+    <system-out><![CDATA[1898726323
+]]></system-out>
+  </testcase>
+  <testcase name="testThreefoldRepetition5" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testThreefoldRepetition6" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.0"/>
+  <testcase name="testThreefoldRepetition7" classname="com.github.bhlangonijr.chesslib.BoardTest" time="0.001"/>
+</testsuite>
