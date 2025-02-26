@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.github.bhlangonijr.chesslib"},{"l":"com.github.bhlangonijr.chesslib.game"},{"l":"com.github.bhlangonijr.chesslib.move"},{"l":"com.github.bhlangonijr.chesslib.pgn"},{"l":"com.github.bhlangonijr.chesslib.unicode"},{"l":"com.github.bhlangonijr.chesslib.util"}];updateSearchResults();
