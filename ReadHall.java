@@ -5,8 +5,6 @@ public class ReadHall {
         int nochange = 0;
         while(nochange == 0)
         {
-            //send power via gpio class
-            //get back
             int[] ret = handle_gpio();
         }
         return "asdf";
@@ -15,7 +13,7 @@ public class ReadHall {
     private static  int[] handle_gpio()
     {
         int[] row_data = new int[9];
-        int[][] boardval
+        int[][] boardval;
         return row_data;
 
 
