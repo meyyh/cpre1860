@@ -3,6 +3,6 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "chesslib-1.3.4.jar"
+        "chesslib.jar"
     ]
 }
