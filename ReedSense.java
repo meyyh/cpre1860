@@ -1,5 +1,5 @@
 
-public class ReadHall {
+public class ReedSense {
     public static String pulse_sensors()
     {
         int nochange = 0;
@@ -15,7 +15,7 @@ public class ReadHall {
         int[] row_data = new int[9];
         int[][] boardval;
         return row_data;
-
+        //hello
 
     }
 }
