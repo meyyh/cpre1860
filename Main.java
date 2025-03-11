@@ -10,10 +10,8 @@ public class Main {
         System.out.println("Legal moves: " + moves);
         moves.removeIf(n -> !n.toString().startsWith("a2"));
         System.out.println("Legal moves: " + moves);
-
-        //Board board = new Board();
-
-        //send board
-        //asdf
+    }
+    public void test() {
+    
     }
 }
