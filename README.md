@@ -13,6 +13,7 @@ git help
 git pull
 git branch $name
 git checkout $name
+git merge $other-name
 git add .
 git commit -m $message
 git push
