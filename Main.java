@@ -4,6 +4,7 @@ import com.github.bhlangonijr.chesslib.Board;
 import com.github.bhlangonijr.chesslib.move.Move;
 
 public class Main {
+    
     public static void main(String[] args) {
         Board board = new Board();
         List<Move> moves = board.legalMoves();
@@ -16,4 +17,6 @@ public class Main {
         //send board
         //asdf
     }
+
+    public static void test(){}
 }
