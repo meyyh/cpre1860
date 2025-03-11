@@ -7,7 +7,7 @@ public class ReedSense {
         {
             int[] ret = handle_gpio();
         }
-        return "asdf";
+        return "as";
     }
 
     private static  int[] handle_gpio()
