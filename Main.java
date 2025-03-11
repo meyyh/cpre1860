@@ -22,6 +22,10 @@ public class Main {
 
         String piece_removed = ReedSense.pulse_sensors(int_array);
         System.out.println(piece_removed);
+
+        List<Move> moves2 = board.legalMoves();
+        moves2.removeIf(n -> !n.toString().startsWith(piece_removed));
+        System.out.println("Legal moves: " + moves2);     
         
     }    
 }

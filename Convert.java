@@ -1,5 +1,5 @@
 public class Convert {
-    public static int[][] bitboardToArray(long bitboard) {
+    public static int[][] bitboardToArray(long bitboard) { //chatgpt code so start here if issues
         int[][] board = new int[8][8]; // 8x8 chessboard
 
         for (int rank = 0; rank < 8; rank++) {  // Loop through ranks (rows)

@@ -20,11 +20,11 @@ public class ReedSense {
             }
 
         }
-        col_int += 65;
+        col_int += 97;
         char col_char = (char) col_int;
         String col_string = Character.toString(col_char);
         
-        String row_string = String.valueOf(row_int);
+        String row_string = String.valueOf(row_int + 1);
         
         String output = col_string + row_string;
         System.out.println(output);
@@ -38,12 +38,25 @@ public class ReedSense {
         int[] boardval;
 
         //change
-        row_data = new int[8];
-        for (int j = 0; j < 8; ++j)
+        if(row == 0 || row == 1 || row == 6 || row == 7)
         {
-            row_data[j] = 1;
+            row_data = new int[8];
+            for (int j = 0; j < 8; ++j)
+            {
+                row_data[j] = 1;
+            }
+        }else{
+            row_data = new int[8];
+            for (int j = 0; j < 8; ++j)
+            {
+                row_data[j] = 0;
+            }
         }
-        row_data[3] = 0;
+
+        if(row == 1)
+        {
+            row_data[3] = 0;
+        }
         return row_data;
         //hello
 
