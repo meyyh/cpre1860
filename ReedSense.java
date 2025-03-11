@@ -2,18 +2,18 @@
 public class ReedSense {
     public static String pulse_sensors(int[][] currBoardState)
     { //returns 'A7' (example)
-        int nochange = 0;
+        Boolean change = false;
         int col_int = 0;
         int row_int = 0;
         //String output;
-        while(nochange == 0)
+        while(!change)
         {
             int[] newRowState;
             for (int temp_row = 0; temp_row <= 7; temp_row++) {
                 newRowState = handle_gpio(temp_row);
                 col_int = compareIntArray(currBoardState[temp_row], newRowState);
                 if (col_int != -1) {
-                    nochange = 1;
+                    change = true;
                     row_int = (char) temp_row;
                     break;
                 }
