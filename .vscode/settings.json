@@ -3,6 +3,7 @@
         "."
     ],
     "java.project.referencedLibraries": [
-        "chesslib.jar"
+        "pi4j-core.jar",
+        "/home/meyyh/gits/cpre1860/chesslib.jar"
     ]
 }
