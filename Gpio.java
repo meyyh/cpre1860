@@ -1,9 +1,9 @@
 import com.pi4j.Pi4J;
+import com.pi4j.plugin.gpiod.provider.gpio.digital.GpioDDigitalInputProvider;
+import com.pi4j.plugin.gpiod.provider.gpio.digital.GpioDDigitalOutputProvider;
 import com.pi4j.boardinfo.util.BoardInfoHelper;
-import com.pi4j.io.gpio.digital.DigitalInput;
-import com.pi4j.io.gpio.digital.DigitalState;
-import com.pi4j.io.gpio.digital.PullResistance;
 import com.pi4j.util.Console;
+import com.pi4j.context.Context;
 
 
 
@@ -44,7 +44,11 @@ public class Gpio {
         // method will automatically load all available Pi4J
         // extensions found in the application's classpath which
         // may include 'Platforms' and 'I/O Providers'
-        var pi4j = Pi4J.newAutoContext();
+        //var pi4j = Pi4J.newAutoContext();
+        Context pi4j = Pi4J.newContextBuilder()
+            .add(GpioDDigitalInputProvider.newInstance())
+            .setGpioChipName("gpiochip0")
+            .build();
 
         // ------------------------------------------------------------
         // Output Pi4J Context information
