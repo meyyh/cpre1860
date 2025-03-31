@@ -45,11 +45,11 @@ public class Gpio {
         // extensions found in the application's classpath which
         // may include 'Platforms' and 'I/O Providers'
         //var pi4j = Pi4J.newAutoContext();
-        Context pi4j = Pi4J.newContextBuilder()
-            .add(GpioDDigitalInputProvider.newInstance())
-            .setGpioChipName("gpiochip0")
-            .build();
-
+        //Context pi4j = Pi4J.newContextBuilder()
+        //    .add(GpioDDigitalInputProvider.newInstance())
+        //    .setGpioChipName("gpiochip0")
+        //    .build();
+        Context pi4j = Pi4J.newAutoContext();
         // ------------------------------------------------------------
         // Output Pi4J Context information
         // ------------------------------------------------------------
