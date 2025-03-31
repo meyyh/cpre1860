@@ -49,7 +49,8 @@ public class Gpio {
         //    .add(GpioDDigitalInputProvider.newInstance())
         //    .setGpioChipName("gpiochip0")
         //    .build();
-        Context pi4j = Pi4J.newAutoContext();
+        //Context pi4j = Pi4J.newAutoContext();
+        Context pi4j = Pi4J.newContextBuilder().autoDetectMockPlugins().autoDetectPlatforms().build();
         // ------------------------------------------------------------
         // Output Pi4J Context information
         // ------------------------------------------------------------
