@@ -13,10 +13,10 @@ public class Gpio {
     private static final int PIN_LED = 22; // PIN 15 = BCM 22
     public static void gpiothing()
     {
-        final var console = new Console();
+        //final var console = new Console();
 
         // Print program title/header
-        console.title("<-- The Pi4J Project -->", "Minimal Example project");
+        //console.title("<-- The Pi4J Project -->", "Minimal Example project");
 
         // ************************************************************
         //
@@ -67,16 +67,16 @@ public class Gpio {
         // performed. You can use this info in case you need board-specific
         // functionality.
         // OPTIONAL
-        console.println("Board model: " + pi4j.boardInfo().getBoardModel().getLabel());
-        console.println("Operating system: " + pi4j.boardInfo().getOperatingSystem());
-        console.println("Java versions: " + pi4j.boardInfo().getJavaInfo());
+        //console.println("Board model: " + pi4j.boardInfo().getBoardModel().getLabel());
+        //console.println("Operating system: " + pi4j.boardInfo().getOperatingSystem());
+        //console.println("Java versions: " + pi4j.boardInfo().getJavaInfo());
         // This info is also available directly from the BoardInfoHelper, 
         // and with some additional realtime data.
-        console.println("Board model: " + BoardInfoHelper.current().getBoardModel().getLabel());
-        console.println("Raspberry Pi model with RP1 chip (Raspberry Pi 5): " + BoardInfoHelper.usesRP1());
-        console.println("OS is 64-bit: " + BoardInfoHelper.is64bit());
-        console.println("JVM memory used (MB): " + BoardInfoHelper.getJvmMemory().getUsedInMb());
-        console.println("Board temperature (°C): " + BoardInfoHelper.getBoardReading().getTemperatureInCelsius());
+        //console.println("Board model: " + BoardInfoHelper.current().getBoardModel().getLabel());
+        //console.println("Raspberry Pi model with RP1 chip (Raspberry Pi 5): " + BoardInfoHelper.usesRP1());
+        //console.println("OS is 64-bit: " + BoardInfoHelper.is64bit());
+        //console.println("JVM memory used (MB): " + BoardInfoHelper.getJvmMemory().getUsedInMb());
+        //console.println("Board temperature (°C): " + BoardInfoHelper.getBoardReading().getTemperatureInCelsius());
         var led = pi4j.digitalOutput().create(PIN_LED);
         led.high();
         try {
